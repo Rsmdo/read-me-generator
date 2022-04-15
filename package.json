@@ -1,0 +1,22 @@
+{
+  "name": "read-me-generator",
+  "version": "1.0.0",
+  "description": "A program that will create readme files upon user inputs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rsmdo/read-me-generator.git"
+  },
+  "author": "Royden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rsmdo/read-me-generator/issues"
+  },
+  "homepage": "https://github.com/Rsmdo/read-me-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
