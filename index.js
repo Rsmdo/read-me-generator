@@ -48,8 +48,8 @@ const questions = [
         type: 'list',
         message: 'Please select a license',
         choices: [
-            'MIT',
-            'GNU GPL v3',
+            'MIT License',
+            'GNU General Public License v3.0',
             'Apache 2.0',
             'none',
         ],
