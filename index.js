@@ -21,31 +21,37 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Enter your project description here:',
         name: 'description',
+        message: 'Enter your project description here:',
+
     },
     {
         type: 'input',
-        message: 'Enter your projects installation instructions here:',
         name: 'installation',
+        message: 'Enter your projects installation instructions here:',
+
     },
     {
         type: 'input',
-        message: 'Enter your projects usage information here:',
         name: 'usage',
+        message: 'Enter your projects usage information here:',
+
     },
     {
         type: 'input',
-        message: 'Enter your projects contribution guidelines here:',
         name: 'contributing',
+        message: 'Enter your projects contribution guidelines here:',
+
     },
     {
         type: 'input',
-        message: 'Enter your projects test instructions here:',
         name: 'tests',
+        message: 'Enter your projects test instructions here:',
+
     },
     {
         type: 'list',
+        name: 'license',
         message: 'Please select a license',
         choices: [
             'MIT License',
@@ -53,12 +59,11 @@ const questions = [
             'Apache 2.0',
             'none',
         ],
-        name: 'license',
     },
     {
         type: 'input',
-        message: '(REQUIRED) Enter your GitHub username here:',
         name: 'github',
+        message: '(REQUIRED) Enter your GitHub username here:',
         validate: githubInput => {
             if (githubInput) {
               return true;
@@ -70,8 +75,8 @@ const questions = [
     },
     {
         type: 'input',
-        message: '(REQUIRED) Enter your email address here:',
         name: 'email',
+        message: '(REQUIRED) Enter your email address here:',
         validate: emailInput => {
             if (emailInput) {
               return true;

@@ -49,14 +49,14 @@ function renderLicenseSection(license) {
     console.log(license);
     if (license === 'MIT License') {
 
-        return `The license used is ${renderLicenseLink(license)}`
+        return `The license used is ${renderLicenseLink(license)}.`
     
     }else if (license=== 'GNU General Public License v3.0') {
 
-        return `The license used is ${renderLicenseLink(license)}`
+        return `The license used is ${renderLicenseLink(license)}.`
     
     }else if (license === 'Apache 2.0') {
-        return `The license used is ${renderLicenseLink(license)}`
+        return `The license used is ${renderLicenseLink(license)}.`
     
     }else if (license === 'None') {
         // empty string 
@@ -67,16 +67,44 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-//   checking to see if all of the data displays before formatting with read me format
+
   ${renderLicenseBadge(data.license)}
   ${renderLicenseSection(data.license)}
+
+  ## Description 
   ${data.description}
-  ${data.installation} 
+
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
+  - [Questions](#questions)
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
   ${data.usage}
+
+  ## License
+  This application is licensed under ${data.license}
+
+  ## Contribution
   ${data.contributing}
+
+  ## Testing
   ${data.tests}
-  ${data.github}
-  ${data.email}
+
+  ## Questions 
+  Any Questions? My email is  ${data.email} and my Github Username is  ${data.github}. 
+
+
+
+
+
+
 
 `;
 }
