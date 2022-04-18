@@ -19,6 +19,10 @@
 
   ## Usage
   use to create readme.md
+  This is how the Readme.md look after everything is inputted. 
+  ![Screen Shot 2022-04-17 at 9 17 51 PM](https://user-images.githubusercontent.com/98415796/163740316-d3efe421-693c-4125-9c72-a1c9e60992c4.png)
+  A video screen recording demonstrating how to use the program is avaliable at this link      https://drive.google.com/drive/folders/1WimSRyWgACnM3OyjgTCd0jXD0FYRsaJS?usp=sharing
+
 
   ## License
   This application is licensed under MIT License
