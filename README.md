@@ -19,6 +19,9 @@
 
   ## Usage
   User will need to run program from terminal 
+  The readme file should look like this in your code editor after creation. 
+  ![Screen Shot 2022-04-17 at 9 39 24 PM](https://user-images.githubusercontent.com/98415796/163741474-ba5792f5-a637-43a9-b601-fdadc8d2dbbd.png)
+  The link for the video tutorial is found at https://drive.google.com/drive/folders/1WimSRyWgACnM3OyjgTCd0jXD0FYRsaJS?usp=sharing
 
 
   ## Contribution
