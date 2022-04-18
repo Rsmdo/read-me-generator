@@ -46,14 +46,14 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
     if (license === 'MIT License') {
 
-        return `The license used for this project is ${renderLicenseLink(license)}.`
+        return `This project is licensed by ${data.license} and the link to the license is ${renderLicenseLink(license)}.`
     
     }else if (license=== 'GNU General Public License v3.0') {
 
-        return `The license used for this project is ${renderLicenseLink(license)}.`
+        return `This project is licensed by ${data.license} and the link to the license is  ${renderLicenseLink(license)}.`
     
     }else if (license === 'Apache 2.0') {
-        return `The license used for this project is ${renderLicenseLink(license)}.`
+        return `This project is licensed by ${data.license} and the link to the license is  ${renderLicenseLink(license)}.`
     
     }else if (license === 'None') {
         // empty string 
@@ -85,8 +85,6 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## License
-  This application is licensed under ${data.license}
 
   ## Contribution
   ${data.contributing}
